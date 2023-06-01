@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0"
+         prefWidth="778.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/17.0.2-ea"
+         xmlns:fx="http://javafx.com/fxml/1" fx:controller="btl_java.manage_library.controllers.HomeController">
+    <Tab text="Quản lí sinh viên">
+        <fx:include source="library-manager.fxml"/>
+    </Tab>
+    <Tab text="Sinh viên mượn sách">
+        <fx:include source="book-borrower.fxml"/>
+    </Tab>
+    <Tab text="Thống kê">
+        <fx:include source="chart.fxml"/>
+    </Tab>
+    <Tab text="Quản lí sách">
+        <fx:include source="book.fxml"/>
+    </Tab>
+    <Tab text="Cài đặt">
+        <fx:include source="setting.fxml"/>
+    </Tab>
+</TabPane>
